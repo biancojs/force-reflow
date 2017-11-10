@@ -9,7 +9,10 @@
 ## Usage
 
 ```js
-import $ from 'bianco.force-reflow'
+import forceReflow from 'bianco.force-reflow'
+
+// force the reflow on a single element
+forceReflow(document.querySelector('#my-id'))
 ```
 
 [travis-image]: https://img.shields.io/travis/biancojs/force-reflow.svg?style=flat-square
