@@ -16,6 +16,3 @@ import domToArray from 'bianco.dom-to-array'
 export default function forceReflow (el) {
   return domToArray(el).map(el => el.scrollTop) && el
 }
-
-
-
