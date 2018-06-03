@@ -4,8 +4,8 @@ const forceReflow = require('./')
 const body = document.body
 
 describe('Bianco forceReflow', function() {
-  beforeEach(function () {
-    var div = document.createElement('div')
+  beforeEach(function() {
+    const div = document.createElement('div')
     div.innerHTML = `
       <p>hello</p>
       <ul>

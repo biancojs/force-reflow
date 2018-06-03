@@ -13,6 +13,6 @@ import domToArray from 'bianco.dom-to-array'
  * // force reflow on a single element
  * forceReflow(document.querySelector('.post'))
  */
-export default function forceReflow (el) {
+export default function forceReflow(el) {
   return domToArray(el).map(el => el.scrollTop) && el
 }
