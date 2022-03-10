@@ -1,0 +1,1 @@
+export function forceReflow<T extends Element>(el: T | T[]): typeof el
